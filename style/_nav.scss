@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fjalla+One&display=swap");
+
+.navContainer {
+  background: #424874;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+
+  a {
+    font-size: 17px;
+    position: absolute;
+    top: 25px;
+    right: 24px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+  .avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 30px;
+  }
+}
+.logoText {
+  font-size: 100px;
+  font-family: "Dancing Script", cursive;
+  //   font-family: "Fjalla One", sans-serif;
+  padding-top: 30px;
+  margin-top: 0;
+  color: white;
+  span {
+    font-size: 50px;
+    font-family: "Fjalla One", sans-serif;
+    //   font-family: "Dancing Script", cursive;
+  }
+}
+@media (max-width: 800px) {
+  .navContainer {
+    flex-direction: column;
+    align-items: center;
+
+    .logoText {
+      margin-bottom: 0;
+      font-size: 60px;
+
+      span {
+        font-size: 40px;
+      }
+    }
+  }
+}

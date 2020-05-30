@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fjalla+One&display=swap");
+.welcomeSection {
+  text-align: center;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+// form
+.register {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+
+  .login {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+    .box {
+      padding: 10px;
+      margin: 10px;
+      font-size: 15px;
+    }
+    .box_submit {
+      background: green;
+      border-radius: 10px;
+      font-size: 15px;
+      color: white;
+    }
+  }
+  .alert {
+    color: red;
+    font-size: 16px;
+  }
+}
+#noInput {
+  color: red;
+  font-size: 13px;
+  padding-left: 13px;
+}
+#noPass {
+  color: red;
+  font-size: 13px;
+  padding-left: 13px;
+}
+#noMail {
+  color: red;
+  font-size: 13px;
+  padding-left: 13px;
+}
+.logLinkReg {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  color: #424874;
+  border-bottom: 2px solid red;
+}
+.regText {
+  font-size: 15px;
+  display: inline-flex;
+}
+.regLink {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  color: #424874;
+}
+.logLink {
+  color: #424874;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
